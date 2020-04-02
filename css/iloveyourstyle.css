@@ -1,0 +1,15 @@
+﻿html {
+    background-color: #D4A1EE
+}
+/*ở trên là điểu chỉnh màu sắc cho cả trang, background màu hồng*/
+body {
+}
+h1 {
+    text-align: center;
+    color: #B1E81D;/*màu này nhìn ok vãi cít*/
+    Background-color: none;
+}
+
+p{color:azure
+}
+/*màu sắc cho tất cả các đoạn text trong tag <p>*/
