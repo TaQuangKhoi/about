@@ -2,7 +2,7 @@
 * {
     /*background-color: #D4A1EE;*/
     background-color: aqua;
-    font-family: Helvetica, sans-serif;
+    font-family: Times New Roman;
 }
 /*ở trên là điểu chỉnh màu sắc cho cả trang, background màu hồng*/
 
@@ -16,6 +16,6 @@ h1 {
     Background-color: none;
 }
 
-p{color:azure
+p{color: black
 }
-/*màu sắc cho tất cả các đoạn text trong tag <p>*/
+/* màu sắc cho tất cả các đoạn text trong tag <p> */
