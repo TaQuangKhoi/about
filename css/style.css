@@ -12,8 +12,8 @@
 
 h1 {
     text-align: center;
-    color: #B1E81D;/*màu này nhìn ok vãi cít*/
-    Background-color: none;
+    color: blue; /*màu này nhìn ok vãi cít*/ /* 17Apr2020-hhết ok rồi*/
+    background-color: none;
 }
 
 p{color: black
