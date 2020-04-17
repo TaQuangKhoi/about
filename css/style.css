@@ -11,6 +11,7 @@
 */
 
 h1 {
+	border:1px solid #4a7d49;
     text-align: center;
     color: blue; /*màu này nhìn ok vãi cít*/ /* 17Apr2020-hhết ok rồi*/
     background-color: none;
