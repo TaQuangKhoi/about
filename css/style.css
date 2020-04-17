@@ -20,3 +20,6 @@ h1 {
 p{color: black
 }
 /* màu sắc cho tất cả các đoạn text trong tag <p> */
+.text{
+	align-items: center;
+}
