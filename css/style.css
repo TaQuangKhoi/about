@@ -1,4 +1,4 @@
-﻿
+
 * {
     /*background-color: #D4A1EE;*/
     background-color: aqua;
@@ -21,5 +21,4 @@ p{color: black
 }
 /* màu sắc cho tất cả các đoạn text trong tag <p> */
 .test{
-	align-items: center;
 }
