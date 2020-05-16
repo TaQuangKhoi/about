@@ -22,12 +22,3 @@ p{color: black
 /* màu sắc cho tất cả các đoạn text trong tag <p> */
 .test{
 }
-
-.counter-item {
-  background-color: #ccc;
-  padding: 5px;
-}
-
-#incrementCounter {
-  margin-top: 20px;
-}
