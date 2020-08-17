@@ -8,3 +8,16 @@
 
 // [[Basic JavaScript: Declare JavaScript Variables]]
 var myName;
+// [[Storing Values with the Assignment Operator]]
+var a;
+var b = 2;
+a = 7;
+// [[Basic JavaScript: Initializing Variables with the Assignment Operator]]
+var c = 3;
+// [[Basic JavaScript: Understanding Uninitialized Variables]]
+a = a + 1;
+a = 6;
+b = b + 5;
+b = 15;
+c = "I am a";
+c = c + " String!";
