@@ -5,3 +5,6 @@
 // 22:27 16 Apr 2020 cannot use ibus-bambo in VS Code
 
 // Now i will learning JavaScript with [[freecodecamp.org]]
+
+// [[Basic JavaScript: Declare JavaScript Variables]]
+var myName;
