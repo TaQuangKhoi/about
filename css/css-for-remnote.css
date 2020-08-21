@@ -224,3 +224,15 @@ body {
         background-color: var(--secondary);
         color: #fff;
     }
+
+    /* Quote */
+    #code-node,
+    #quote,
+    .quote {
+        background-color:#eee;
+        border: none;
+        color: var(--font-dark-c);
+        padding: 1px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
