@@ -1,0 +1,214 @@
+/* Global */
+body {
+    font-family:"Times New Roman";
+    }
+    
+    /* Queue */
+    .queue-container {
+        .queue {
+            .queue__title {
+                .queueBadge {
+                }
+            }
+        }
+    }
+    
+    /* Hierarchy Editor */
+    #hierarchy-editor {
+            /* Bullets */
+            .rem-bullet__container {
+                .rem-bullet {
+                }
+            }
+    
+            /* Editor */
+            .rem-text {
+            }
+    
+            /* Portals */
+            .portal-rem {
+                .portal-rem-top {
+                }
+            }
+    
+            /* Reference and Tag Sections */
+            #hierarchy-editor-references {
+            }
+            #hierarchy_editor__tag-bar {
+                #hierarchy-editor__tag-bar__tag {
+                    #hierarchy-editor__tag-bar__tag__delete {
+                    }
+                }
+            }
+    
+            /* Bottom Toolbar */
+            .hierarchy-editor-toolbar {
+            }
+    }
+    
+    /* Rem-Level Formatting */
+    .rem-header--1 {
+    }
+    .rem-header--2 {
+    }
+    .rem-header--3 {
+    }
+    
+    /* Text-Level Formatting */
+    .rem-reference {
+    }
+    .quote {
+    }
+    .cloze {
+    }
+    
+    .highlight-color--red {background-color:;
+    }
+    .highlight-color--yellow {background-color:;
+    }
+    .highlight-color--orange {
+    color:yellow;
+    background-color:#FFA64D;
+    }
+    .highlight-color--green {background-color:;
+    }
+    .highlight-color--purple {background-color:;
+    }
+    
+    .work-in-progress-rem {
+    }
+    .work-in-progress-tag {
+    }
+    
+    /* Documents */
+    .document {
+        #document-parents {
+        }
+    }
+    
+    /* Document Sidebar */
+    #document-sidebar {
+        .document-sidebar_top {
+            .document-sidebar_top__logo-and-user {
+            }
+        }
+            .document-list-item__container {
+                .document-list-item {
+                }
+            }
+        .document-sidebar__buttons {
+        }
+    }
+    
+    /* ===== My CODE ===== */
+    #i.file.text.small.icon{
+    display:none;
+    }
+    .LatexNode .latex-node__latex {
+    display:none; 
+    }
+    
+    .rem-indented-indicator {
+    display: none;
+    }
+    :root {
+        --accent: #67bcf9;
+        --accent2: #0cb2ff;
+        --accent3: #2584f8;
+        --accentstrong: #ff0000a3;
+        --bgcol: #fff;
+        --bglight: #f8f8f8;
+        --bgmed: #bfbfbf;
+        --border: #c8c8c8;
+        --borderlight: #e4e4e4;
+        --codebg: #1d2429;
+        --currentsel: #bdeefe78;
+        --currentsel2: #8deafa;
+        --flash: #ffffa5;
+        --focusrem: #ff5d7240;
+        --hover: #ccedf4a8;
+        --linknode: #0e8dfc;
+        --neutraldark: #4d4d4d;
+        --portal: #d6f4f9;
+        --queuebadge: black;
+        --queuebg: #1179ff;
+        --queuetext: white;
+        --quotebg: #eff8f6;
+        --quoteborder: #e7e7e7;
+        --quotetext: #f90b63;
+        --remcustomicon: #33e308;
+        --remindent: #5aadea99;
+        --remlink: #0072e4;
+        --remrefbg: #f7fdc4db;
+        --search: #b67fec;
+        --secondary: #85e80e;
+        --shadow: #00000030;
+        --tagbg: #feffd5;
+        --tagcol: #303030;
+    }
+    
+    /*===========================*/
+    #ArticleQueue .QueueFocused {
+        box-shadow: 0 0 0 5px var(--currentsel2);
+    }
+    .Queue {
+        margin: auto;
+        background-color: var(--bgcol);
+        border: thin solid var(--queuebg);
+        display: inline-block;
+        min-width: 400px;
+    }
+    .Queue #queue__title {
+        background-color: var(--queuebg);
+        text-align: center;
+        padding: 4px;
+        position: relative;
+        color: var(--queuetext);
+    }
+    .Queue #queue__progress-bar {
+        background-color: var(--secondary) !important;
+        height: 3px;
+    }
+    .Queue #QueueBadge {
+        padding: 2px;
+        margin: 2px 2px 2px 10px;
+        border-style: none;
+        border-radius: 10px;
+        display: inline-block;
+        background-color: var(--queuebadge);
+        text-align: center;
+    }
+    .spacedRepetition .spaced-repetition__reveal {
+        background-color: var(--queuebg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--queuetext);
+    }
+    .spacedRepetition .spaced-repetition__bottom {
+        bottom: 0;
+        height: 100px;
+        background-color: var(--queuebg);
+        margin-top: auto;
+        z-index: 1;
+    }
+    .queue__buttons {
+        display: flex;
+        background-color: var(--queuebg);
+        height: 50%;
+    }
+    .queue__response-button {
+        color: var(--queuetext);
+    }
+    .queue__response-button:hover {
+        background-color: var(--secondary);
+        color: var(--queuetext);
+    }
+    .spacedRepetition .fill-in-the-blank {
+        color: var(--queuebg);
+    }
+    .Queue #queue__title #QueueBackButton:hover {
+        background-color: var(--secondary);
+        color: #fff;
+    }
