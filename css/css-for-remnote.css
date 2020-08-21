@@ -62,17 +62,18 @@ body {
     .cloze {
     }
     
-    .highlight-color--red {background-color:;
+    .highlight-color--red {background-color:rgb(189, 3, 3);
     }
-    .highlight-color--yellow {background-color:;
+    .highlight-color--yellow {background-color: rgb(241, 241, 16);
     }
     .highlight-color--orange {
     color:;
     background-color:#e97b0d;
     }
-    .highlight-color--green {background-color:;
+    .highlight-color--blue {background-color: #1179ff}
+    .highlight-color--green {background-color: rgb(2, 117, 2) ;
     }
-    .highlight-color--purple {background-color:;
+    .highlight-color--purple {background-color: rgb(126, 3, 126);
     }
     
     .work-in-progress-rem {
