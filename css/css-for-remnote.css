@@ -63,26 +63,27 @@ body {
     }
     
     .highlight-color--red {
-        background-color:rgb(219, 10, 10)!important;
+        background-color:#ffadab80!important;
         padding: 0px 5px;}
-    .highlight-color--yellow {
-        background-color: rgb(241, 241, 16)!important;
+    
+    .highlight-color--orange {
+        background-color:#ffda9680!important;
         padding: 0px 5px;
     }
-    .highlight-color--orange {
-        background-color:#e97b0d!important;
+    .highlight-color--yellow {
+        background-color: #fcff8f80!important;
+        padding: 0px 5px;
+    }
+    .highlight-color--green {
+        background-color: #b5e9a680!important;
         padding: 0px 5px;
     }
     .highlight-color--blue {
         background-color: #1179ff!important;
         padding: 0px 5px;
     }
-    .highlight-color--green {
-        background-color: rgb(2, 117, 2)!important;
-        padding: 0px 5px;
-    }
     .highlight-color--purple {
-        background-color: rgb(126, 3, 126)!important;
+        background-color: rgba(150, 7, 126, 0.884)!important;
         padding: 0px 5px;
     }
     
