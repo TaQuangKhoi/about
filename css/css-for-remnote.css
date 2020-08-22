@@ -261,6 +261,7 @@ body {
     }
 
     /* Documents List */
+    
     /*
     #DocumentTable .ReactVirtualized__Table {
         height: auto;
@@ -275,7 +276,7 @@ body {
         min-height: 100% !important;  
         margin-left: 15px;
         text-align: center;
-        color: /*var(--font-background-c)*/;
+        color: var(--font-background-c);
         font-weight: var(--normal-font-weight);
         letter-spacing: var(--wide-font-spacing);
         font-size: 12px;
@@ -292,7 +293,7 @@ body {
     .ReactVirtualized__Table__row[style*="background-color: rgba(1\, 1\, 1\, 0.1);"],   
     .ReactVirtualized__Table__row {
         color: var(--font-c)!important;
-        background-color: /*transparent!important*/;
+        background-color: transparent!important;
         border-top: 1px solid var(--border-c);
         height: auto !important;
         min-height: 100% !important;
@@ -316,12 +317,12 @@ body {
     }
     
      #DocumentTable .DocumentLink:hover {
-        background-color: /*transparent*/;
-        color: /*var(--font-c)!important*/;
+        background-color: transparent;
+        color: var(--font-c)!important;
     }
 
     #DocumentTable .DocumentLink {
-        color: /*var(--font-background-c)!important*/;
+        color: var(--font-background-c)!important;
     }
 
     #DocumentTable a:hover,
@@ -331,10 +332,11 @@ body {
     }
     
     .ReactVirtualized__Table__rowColumn[style*="flex: 0 1 690px;"]:hover {
-        background-color:/* #5da1b44d!important*/;
+        background-color:#5da1b44d!important;
     }
     
     #DocumentTable .Cell {
         margin-left: auto;
         margin-right: auto;
-    }*/
+    }
+    */
