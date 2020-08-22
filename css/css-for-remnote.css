@@ -157,7 +157,30 @@ body {
         --shadow: #00000030;
         --tagbg: #feffd5;
         --tagcol: #303030;
+        --main-background-c: #fff;     /* Main Window, Bottom Bar, Doc View, Sticky Top, Pages, Queue */
+    --secondary-background-c: #fbfbfb;     /* Sidebar, Quotes, icons, Portals, Embedded Search, Settings Menu */
+    --elevated-background-c: #fbfcfc;     /* Queue Cards, Popups */
+    --hover-background-c: rgba(173, 216, 230, .5);     /* Hover */
+    
+    --border-c: #eee;
+
+    --font-c: #222;
+    --font-dark-c: #787878;
+    --font-background-c: #aaa;
+
+    --font-red-c: #f06f73;
+    --blue-c: #add8e6;
+
+    --main-font-spacing: 0.01em;
+    --bold-font-spacing: 0.02em;
+    --semiwide-font-spacing: 0.05em;
+    --wide-font-spacing: 0.1em;
+
+    --normal-font-weight: 400;
+    --focus-font-weight: 500;
+    --bold-font-weight: 600;
     }
+
     
     /*===========================*/
     #ArticleQueue .QueueFocused {
@@ -252,7 +275,7 @@ body {
         min-height: 100% !important;  
         margin-left: 15px;
         text-align: center;
-        color: var(--font-background-c);
+        color: /*var(--font-background-c)*/;
         font-weight: var(--normal-font-weight);
         letter-spacing: var(--wide-font-spacing);
         font-size: 12px;
@@ -269,7 +292,7 @@ body {
     .ReactVirtualized__Table__row[style*="background-color: rgba(1\, 1\, 1\, 0.1);"],   
     .ReactVirtualized__Table__row {
         color: var(--font-c)!important;
-        background-color: transparent!important;
+        background-color: /*transparent!important*/;
         border-top: 1px solid var(--border-c);
         height: auto !important;
         min-height: 100% !important;
@@ -293,12 +316,12 @@ body {
     }
     
      #DocumentTable .DocumentLink:hover {
-        background-color: transparent;
-        color: var(--font-c)!important;
+        background-color: /*transparent*/;
+        color: /*var(--font-c)!important*/;
     }
 
     #DocumentTable .DocumentLink {
-        color: var(--font-background-c)!important;
+        color: /*var(--font-background-c)!important*/;
     }
 
     #DocumentTable a:hover,
@@ -308,7 +331,7 @@ body {
     }
     
     .ReactVirtualized__Table__rowColumn[style*="flex: 0 1 690px;"]:hover {
-        background-color: #5da1b44d!important;
+        background-color:/* #5da1b44d!important*/;
     }
     
     #DocumentTable .Cell {
