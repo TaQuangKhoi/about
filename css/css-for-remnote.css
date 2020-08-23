@@ -158,27 +158,25 @@ body {
         --tagbg: #feffd5;
         --tagcol: #303030;
         --main-background-c: #fff;     /* Main Window, Bottom Bar, Doc View, Sticky Top, Pages, Queue */
-    --secondary-background-c: #fbfbfb;     /* Sidebar, Quotes, icons, Portals, Embedded Search, Settings Menu */
-    --elevated-background-c: #fbfcfc;     /* Queue Cards, Popups */
-    --hover-background-c: rgba(173, 216, 230, .5);     /* Hover */
-    
-    --border-c: #eee;
+        --secondary-background-c: #fbfbfb;     /* Sidebar, Quotes, icons, Portals, Embedded Search, Settings Menu */
+        --elevated-background-c: #fbfcfc;     /* Queue Cards, Popups */
+        --hover-background-c: rgba(173, 216, 230, .5);     /* Hover */
+        --border-c: #eee;
+        --font-c: #222;
+        --font-dark-c: #787878;
+        --font-background-c: #aaa;
 
-    --font-c: #222;
-    --font-dark-c: #787878;
-    --font-background-c: #aaa;
+        --font-red-c: #f06f73;
+        --blue-c: #add8e6;
 
-    --font-red-c: #f06f73;
-    --blue-c: #add8e6;
+        --main-font-spacing: 0.01em;
+        --bold-font-spacing: 0.02em;
+        --semiwide-font-spacing: 0.05em;
+        --wide-font-spacing: 0.1em;
 
-    --main-font-spacing: 0.01em;
-    --bold-font-spacing: 0.02em;
-    --semiwide-font-spacing: 0.05em;
-    --wide-font-spacing: 0.1em;
-
-    --normal-font-weight: 400;
-    --focus-font-weight: 500;
-    --bold-font-weight: 600;
+        --normal-font-weight: 400;
+        --focus-font-weight: 500;
+        --bold-font-weight: 600;
     }
 
     
