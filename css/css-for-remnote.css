@@ -63,23 +63,23 @@ body {
     }
     
     .highlight-color--red {
-        background-color:#ffadab80!important;
+        background-color:#f7575480!important;
         padding: 0px 5px;}
     
     .highlight-color--orange {
-        background-color:#ffda9680!important;
+        background-color:#ffc096b6!important;
         padding: 0px 5px;
     }
     .highlight-color--yellow {
-        background-color: #fcff8f80!important;
+        background-color: #dffa6880!important;
         padding: 0px 5px;
     }
     .highlight-color--green {
-        background-color: #b5e9a680!important;
+        background-color: #95cc8680!important;
         padding: 0px 5px;
     }
     .highlight-color--blue {
-        background-color: #1179ff!important;
+        background-color: #1174f5!important;
         padding: 0px 5px;
     }
     .highlight-color--purple {
