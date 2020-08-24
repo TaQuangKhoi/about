@@ -115,10 +115,11 @@ body {
     /* ===== My CODE ===== */
     #i.file.text.small.icon{
     display:none;
-    }
+    
+    /* }
     .LatexNode .latex-node__latex {
     display:none; 
-    }
+    }*/
     
     .rem-indented-indicator {
     display: none;
