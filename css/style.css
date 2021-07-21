@@ -1,0 +1,20 @@
+h1{
+    font-family: "Cascade Monospace", "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    padding: 3px;
+    margin: 0px;
+    text-align: center;
+}
+.square {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    padding: 3px;
+    margin: 0px;
+    font-size: 22px;
+    font-weight: normal;
+}

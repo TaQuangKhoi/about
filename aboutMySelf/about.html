@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tạ Quang Khôi</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="medal.svg">
+    <script src='script/main.js'></script>
+</head>
+<body>
+    <!-- Hiện thông tin của tôi -->
+    <h1>Thông tin cá nhân</h1>
+    <p>Tên: Tạ Quang Khôi </p>
+    <p>Ngày sinh: 27/08/2002 </p>
+    <p>Nơi sinh: Cần Thơ</p>
+    <!-- Học vấn -->
+    <h1>Học vấn</h1>
+    <p>Trường Đại học Bà Rịa Vũng Tàu
+        (<a href="https://bvu.edu.vn/" target="_blank" class="btn btn-primary">Go to BVU site</a>)
+    </p>
+    <p>Môn: Lập trình ứng dụng di động và game</p>
+    <p>Lớp: DH20LT</p>
+    <p>Năm học: 2020 - 2024</p>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "red";
+        ctx.fillRect(0, 0, 400, 400);
+        ctx.fillStyle = "green";
+        ctx.fillRect(100, 100, 200, 200);
+        ctx.fillStyle = "blue";
+        ctx.fillRect(200, 100, 200, 200);
+        ctx.fillStyle = "black";
+        ctx.fillRect(100, 200, 200, 200);
+    </script>
+</body>
+</html>
