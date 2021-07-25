@@ -7,8 +7,7 @@ h1{
     font-weight: normal;
     color: #000000;
     background-color: #f0f0f0;
-    border: 1px solid #d0d0d0;
-    border-color: tomato;
+    border: 2px solid tomato;
     padding: 3px;
     margin: 0px;
     text-align: center;
