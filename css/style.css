@@ -1,5 +1,7 @@
 body{
     background-color: lightblue;
+    width: 100%;
+    height: 100%;
 }
 h1{
     font-family: "Cascade Monospace", "Courier New", Courier, monospace;
