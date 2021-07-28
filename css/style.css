@@ -8,11 +8,16 @@ h1{
     color: #000000;
     background-color: #f0f0f0;
     border: 2px solid tomato;
-    padding: 3px;
+    padding: 5px;
     margin: 0px;
     text-align: center;
 }
 .box {
     border: 1px;
     border-style: double;
+}
+.inline-quote {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 3px;
 }
