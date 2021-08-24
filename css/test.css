@@ -7,3 +7,30 @@
 #canvas {
     border: 2px solid black;
 }
+
+#about-test-page {
+    height: auto;
+    max-width: 200px!important;
+    max-height: 100px!important;
+    width: auto;
+}
+
+#clear-canvas{
+    display: float;
+}
+#container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  #about-test-page,
+  #draw {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #draw {
+    z-index: 10;
+  }

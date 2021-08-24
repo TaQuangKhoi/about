@@ -6,13 +6,24 @@
         <script src="../js/canvas.js"></script>
     </head>
     <body>
-        <h1>I am testing with Javascript on it</h1>
-        <p>I test about API Weather</p>
-        <canvas id="canvas">
+        <div id="container">
+            <div id="about-test-page">
+                <h1>I am testing with Javascript on it</h1>
+                <p>I test about API Weather</p>
+            </div>
 
-        </canvas>
-        <div id="test">
-            <script src="../js/weather.js"></script>
+            <!-- clear canvas -->
+            <div id="clear-canvas">
+                <button onclick="clearCanvas()">Clear Canvas</button>
+            </div>
+
+            <div id="draw">
+                <canvas id="canvas">
+                </canvas>
+                <div id="test">
+                    <script src="../js/weather.js"></script>
+                </div>
+            </div>
         </div>
-    </body>
+        </body>
 </html>

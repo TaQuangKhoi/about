@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     console.log("Loaded canvas.js");
-    const canvas = document.querySelector("#canvas");
+    var canvas = document.querySelector("#canvas");
 
     // Chỉnh kích cỡ canvas
     canvas.width = window.innerWidth;
@@ -16,8 +16,17 @@ window.addEventListener("load", () => {
     //function draw
     let paiting = false;
     //define ctx
-    const ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext("2d");
     
+    //clear canvas
+    function clearCanvas() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    /*const clearCanvas = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }*/
+
     function startPainting(e) {
         paiting = true;
         draw(e);
@@ -27,6 +36,8 @@ window.addEventListener("load", () => {
         paiting = false;
         ctx.beginPath();
     }
+
+    
     
     function draw(e) {
         if (!paiting) return;
@@ -38,11 +49,16 @@ window.addEventListener("load", () => {
         ctx.stroke();
         ctx.beginPath();
         ctx.moveTo(e.clientX, e.clientY);
-        ctx.stroke();
     }
+
     
     //EventListeners
     canvas.addEventListener("mousedown", startPainting);
     canvas.addEventListener("mouseup", stopPainting);
     canvas.addEventListener("mousemove", draw);
 });
+
+//clear canvas
+function clearCanvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
