@@ -1,6 +1,11 @@
 * {
     font-family: "Cascadia Code", Cascadia;
 }
+@font-face
+{
+    font-family: "Cascadia Code";
+    src: url('../font/CascadiaCode-Bold.otf'),;
+}
 body{
     background-color: lightblue;
     /*max-width: 1920px;*/
