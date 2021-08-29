@@ -77,4 +77,24 @@ h1{
         color: yellow;
         background-color: transparent;
         text-decoration: underline;
-    }
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul.content {
+    margin-top: 1rem;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
