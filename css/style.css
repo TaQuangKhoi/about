@@ -79,6 +79,7 @@ h1{
         text-decoration: underline;
 }
 
+/*
 ul{
     display: block;
     list-style-type: disc;
@@ -97,4 +98,4 @@ ul.content {
     position: sticky;
     top: 20px;
     z-index: 10;
-}
+}*/
