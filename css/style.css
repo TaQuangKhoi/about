@@ -1,6 +1,11 @@
 * {
-    font-family: "Cascadia Code", Cascadia, Arial;
+    font-family: myCascadiaBold, "Cascadia Code", Cascadia, Arial;
 }
+@font-face {
+    font-family: myCascadiaBold;
+    src: url(/font/CascadiaCode-Bold.otf);
+    
+  }
 @font-face
 {
     font-family: "Cascadia Code";
