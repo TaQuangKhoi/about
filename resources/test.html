@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>I wil put my test on this page</title>
-        <link rel="stylesheet" href="../css/test.css">
-        <script src="../js/canvas.js"></script>
-    </head>
-    <body>
-        <div id="container">
-            <div id="about-test-page">
-                <h1>I am testing with Javascript on it</h1>
-                <p>I test about API Weather</p>
-            </div>
+  <head>
+    <title>I wil put my test on this page</title>
+    <link rel="stylesheet" href="../css/test.css" />
+    <script src="../js/canvas.js"></script>
+  </head>
+  <body>
+    <div>
+      <video width="400" controls autoplay name="media">
+        <source
+          src="https://baikevideo.cdn.bcebos.com/media/mda-OfGaE9gVColin1F7/0314362a6f2a76d5b8e52408be6299c4.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <object
+        data="https://baikevideo.cdn.bcebos.com/media/mda-OfGaE9gVColin1F7/0314362a6f2a76d5b8e52408be6299c4.mp4"
+        width="400px"
+        height="200px"
+      ></object>
+      <embed
+        src="https://baikevideo.cdn.bcebos.com/media/mda-OfGaE9gVColin1F7/0314362a6f2a76d5b8e52408be6299c4.mp4"
+        width="400px"
+        height="200px"
+      />
+      <iframe
+        width="560"
+        height="315"
+        src="https://baikevideo.cdn.bcebos.com/media/mda-OfGaE9gVColin1F7/0314362a6f2a76d5b8e52408be6299c4.mp4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="container">
+      <div id="about-test-page">
+        <h1>I am testing with Javascript on it</h1>
+        <p>I test about API Weather</p>
+      </div>
 
-            <!-- clear canvas -->
-            <div id="clear-canvas">
-                <button onclick="clearCanvas()">Clear Canvas</button>
-            </div>
+      <!-- clear canvas -->
+      <div id="clear-canvas">
+        <button onclick="clearCanvas()">Clear Canvas</button>
+      </div>
 
-            <div id="draw">
-                <canvas id="canvas">
-                </canvas>
-                <div id="test">
-                    <script src="../js/weather.js"></script>
-                </div>
-            </div>
+      <div id="draw">
+        <canvas id="canvas"> </canvas>
+        <div id="test">
+          <script src="../js/weather.js"></script>
         </div>
-        </body>
+      </div>
+    </div>
+  </body>
 </html>
