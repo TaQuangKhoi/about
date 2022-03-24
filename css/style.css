@@ -1,3 +1,6 @@
+html {
+    user-select: none;
+}
 * {
     font-family: myCascadiaBold, "Cascadia Code", Cascadia, Arial;
 }
