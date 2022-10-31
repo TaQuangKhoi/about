@@ -38,8 +38,7 @@ h1{
     text-align: center;
 }
 .box {
-    border: 1px;
-    border-style: double;
+    border: 1px double;
 }
 .inline-quote {
     background-color: dodgerblue;
