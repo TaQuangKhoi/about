@@ -1,19 +1,22 @@
-html {
-    user-select: none;
-}
-* {
-    font-family: myCascadiaBold, "Cascadia Code", Cascadia, Arial;
-}
 @font-face {
     font-family: myCascadiaBold;
     src: url(/font/CascadiaCode-Bold.otf);
-    
-  }
+
+}
+
 @font-face
 {
     font-family: "Cascadia Code";
     src: url('../font/CascadiaCode-Bold.otf');
 }
+
+html {
+    user-select: none;
+}
+* {
+    font-family: myCascadiaBold, serif, "Cascadia Code", Cascadia, Arial;
+}
+
 body{
     background-color: lightblue;
     /*max-width: 1920px;*/
@@ -24,14 +27,14 @@ body{
     margin-top: 20px;
 }
 h1{
-    font-family: myCascadiaBold, "Cascadia Mono", "Cascadia";
+    font-family: myCascadiaBold, serif, "Cascadia Mono", "Cascadia";
     font-size: 100%;
     font-weight: normal;
     color: #000000;
     background-color: #f0f0f0;
     border: 2px solid tomato;
     padding: 5px;
-    margin: 0px;
+    margin: 0;
     text-align: center;
 }
 .box {
