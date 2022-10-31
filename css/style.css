@@ -26,6 +26,29 @@ body{
     margin-right: 20px;
     margin-top: 20px;
 }
+
+/* Cái nav đẹp dấy */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.nav-container ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
 h1{
     font-family: myCascadiaBold, serif, "Cascadia Mono", "Cascadia";
     font-size: 100%;
