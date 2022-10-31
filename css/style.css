@@ -12,7 +12,7 @@ html {
 @font-face
 {
     font-family: "Cascadia Code";
-    src: url('../font/CascadiaCode-Bold.otf'),;
+    src: url('../font/CascadiaCode-Bold.otf');
 }
 body{
     background-color: lightblue;
