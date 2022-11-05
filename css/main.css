@@ -1,0 +1,24 @@
+/*** Chứa các CSS sẽ dùng chung ***/
+
+
+/* Cái nav đẹp đấy */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.nav-container ul li {
+    list-style-type: none;
+    padding: 10px;
+}
